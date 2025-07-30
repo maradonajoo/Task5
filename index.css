@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    background-color: #fbfbfb;
+}
+
+nav{
+    width: 17%;
+    background-color: #293c4f;
+    height:100vh;
+    flex-direction: column;
+}
+
+.h1{
+    margin-left: 20px;
+    font-weight: 800;
+    font-size:x-large;
+    color: #fff;
+}
+
+.dis{
+    color: #cacaca;
+    margin-left: 20px;
+    font-size: small;
+    margin-top: -5px;
+}
+
+hr{
+    height: 4px;
+    background: #557ca2;
+    box-shadow: 0 1px 0 #3c5975, 0 -1px 0 #1c2937; 
+    margin: 20px auto;
+    border: none;
+}
+
+.sb{
+    margin: 40px 30px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+}
+
+span{
+    font-size: 10px;
+}
+
+.icons{
+    position: absolute;
+    top: 85%;
+    left: 40px;
+    font-size: larger;
+    text-decoration:underline;
+    color: #fff;
+}
+
+.footer{
+    position: absolute;
+    top: 92.5%;
+    left: 2%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+
+.header{
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.search{
+    height: 28px;
+    width:200px;
+    border: rgb(164, 164, 164) 1px solid;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.icon{
+    height: 28px;
+    position: absolute;
+    top: 32.5px;
+    right: 35px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.box1{
+    position: absolute;
+    left:19%;
+    top: 15%;
+    border: rgb(183, 183, 183) 1px solid;
+    width: 25%;
+    height: 320px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #efefef;
+    box-shadow:1px 1px 5px rgb(183, 183, 183) ;
+}
+
+.travel{
+    width: 70px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb;
+    border: #fbfbfb 1px solid;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgb(183, 183, 183);
+    left: 8%;
+    position: absolute;
+}
+
+.TRAVEL{
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.paragraph{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    left: 0;
+    background-color: #b0b0b0;
+    height: 40%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
